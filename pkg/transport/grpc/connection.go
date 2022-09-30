@@ -17,8 +17,8 @@ package grpc
 import (
 	"sync"
 
+	pb "github.com/jnan806/opensergo-protocol-grpc-go/transport/v1"
 	"github.com/opensergo/opensergo-control-plane/pkg/model"
-	pb "github.com/opensergo/opensergo-control-plane/pkg/proto/transport/v1"
 	"github.com/pkg/errors"
 )
 

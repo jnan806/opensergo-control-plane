@@ -15,7 +15,7 @@
 package util
 
 import (
-	pb "github.com/opensergo/opensergo-control-plane/pkg/proto/fault_tolerance/v1"
+	pb "github.com/jnan806/opensergo-protocol-grpc-go/fault_tolerance/v1"
 	"strconv"
 	"strings"
 )

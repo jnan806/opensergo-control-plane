@@ -16,8 +16,8 @@ package grpc
 
 import (
 	"fmt"
+	trpb "github.com/jnan806/opensergo-protocol-grpc-go/transport/v1"
 	"github.com/opensergo/opensergo-control-plane/pkg/model"
-	trpb "github.com/opensergo/opensergo-control-plane/pkg/proto/transport/v1"
 	"github.com/opensergo/opensergo-control-plane/pkg/util"
 	"go.uber.org/atomic"
 	"google.golang.org/grpc"

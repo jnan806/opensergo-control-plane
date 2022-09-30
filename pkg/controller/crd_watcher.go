@@ -22,10 +22,10 @@ import (
 	"sync"
 
 	"github.com/go-logr/logr"
+	pb "github.com/jnan806/opensergo-protocol-grpc-go/fault_tolerance/v1"
+	trpb "github.com/jnan806/opensergo-protocol-grpc-go/transport/v1"
 	crdv1alpha1 "github.com/opensergo/opensergo-control-plane/pkg/api/v1alpha1"
 	"github.com/opensergo/opensergo-control-plane/pkg/model"
-	pb "github.com/opensergo/opensergo-control-plane/pkg/proto/fault_tolerance/v1"
-	trpb "github.com/opensergo/opensergo-control-plane/pkg/proto/transport/v1"
 	"github.com/opensergo/opensergo-control-plane/pkg/util"
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"

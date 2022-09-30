@@ -14,7 +14,7 @@
 
 package util
 
-import pb "github.com/opensergo/opensergo-control-plane/pkg/proto/transport/v1"
+import pb "github.com/jnan806/opensergo-protocol-grpc-go/transport/v1"
 
 func IsValidReq(req *pb.SubscribeRequest) bool {
 	if req == nil || req.Target == nil || req.Target.Namespace == "" || req.Target.App == "" ||

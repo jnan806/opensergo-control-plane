@@ -18,9 +18,9 @@ import (
 	"os"
 	"sync"
 
+	trpb "github.com/jnan806/opensergo-protocol-grpc-go/transport/v1"
 	"github.com/opensergo/opensergo-control-plane/pkg/controller"
 	"github.com/opensergo/opensergo-control-plane/pkg/model"
-	trpb "github.com/opensergo/opensergo-control-plane/pkg/proto/transport/v1"
 	transport "github.com/opensergo/opensergo-control-plane/pkg/transport/grpc"
 	"github.com/pkg/errors"
 )
