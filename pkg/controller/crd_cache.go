@@ -29,6 +29,7 @@ type CRDObjectsHolder struct {
 
 // CRDCache caches versioned CRD objects in local.
 type CRDCache struct {
+	ss
 	kind string
 	// crdEntityMap represents a map: (namespace, name) -> unique CRD
 	crdEntityMap map[types.NamespacedName]client.Object
